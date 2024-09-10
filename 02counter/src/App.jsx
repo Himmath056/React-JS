@@ -11,8 +11,13 @@ function App() {
     if(counter === 20 ){
       document.getElementById('#add').setAttribute('disable')
     }
-    counter =counter + 1
-    setCounter(counter)
+    // counter =counter + 1
+    setCounter((prevCounter) => prevCounter+1 )
+    setCounter((prevCounter) => prevCounter+1 )
+    setCounter((prevCounter) => prevCounter+1 )
+    setCounter((prevCounter) => prevCounter+1 )
+    
+    
     console.log("clciked",counter);
     
     
